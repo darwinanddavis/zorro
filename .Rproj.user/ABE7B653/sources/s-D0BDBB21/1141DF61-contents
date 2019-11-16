@@ -22,7 +22,6 @@ setwd("/Users/malishev/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorr
 # preview site locally 
 serve_site()
 
-
 # build site 
 build_site()
  
