@@ -22,5 +22,14 @@ You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <description> knitr::opts_chunk$set(collapse = TRUE)  R Markdown require(leaflet) latlon &amp;lt;- c(33.79667, -84.32346) # emory ecc_label &amp;lt;- &amp;quot;Room 2052, Wayne Rollins Building&amp;quot; ecc_popup &amp;lt;- &amp;quot;Take the elevator to the second floor, \nthen exit left and take the first left.&amp;quot; map &amp;lt;- leaflet() # initiate the leaflet map object map &amp;lt;- addTiles(map) # add the actual map tiles to the leaflet object map &amp;lt;- addMarkers(map,latlon[2],latlon[1],label=ecc_label,popup=ecc_popup) map  </description>
+    </item>
+    
   </channel>
 </rss>

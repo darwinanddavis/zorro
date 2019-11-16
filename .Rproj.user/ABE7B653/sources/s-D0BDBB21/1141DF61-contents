@@ -67,3 +67,5 @@ hugo_version()
 # note
 # public folder gets overwritten on build  
 
+new_post("New post test")
+
