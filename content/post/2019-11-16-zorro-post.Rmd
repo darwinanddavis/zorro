@@ -1,13 +1,16 @@
 ---
-title: mm
+title: New post test
 author: ~
 date: '2019-11-16'
-slug: mm
+slug: new-post-test
 categories: []
 tags: []
 ---
 
-# New blog post with rmd 
+
+
+2019-11-16-zorro-post
+
 
 
 
