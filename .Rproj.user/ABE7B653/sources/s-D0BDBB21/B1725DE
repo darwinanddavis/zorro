@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573932715014.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1437610487",
+    "id" : "B1725DE",
+    "lastKnownWriteTime" : 1573932705,
+    "last_content_update" : 1573932705,
+    "path" : "~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

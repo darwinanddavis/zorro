@@ -1,0 +1,63 @@
+#1. 
+## Install from CRAN
+install.packages("blogdown")
+## Or, install from GitHub
+if (!requireNamespace("devtools")) install.packages("devtools")
+devtools::install_github("rstudio/blogdown")
+require(blogdown)
+
+#2. install hugo
+# blogdown::install_hugo()
+blogdown::update_hugo()
+hugo_version()
+
+#3. set wd to empty folder 
+setwd("/Users/malishev/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro")
+# 4. install theme
+install_theme("gcushen/hugo-academic", theme_example = TRUE, update_config = TRUE)
+
+# init new site with theme
+new_site(theme = "gcushen/hugo-academic", 
+         sample = TRUE, 
+         theme_example = TRUE, 
+         empty_dirs = TRUE,
+         to_yaml = TRUE)
+
+# preview site locally 
+serve_site()
+
+# build site 
+build_site()
+
+# 3. connect to netlify with github
+# www.netlify.com/drop
+
+# 4. add/delete widgets by deleting folders in content/home folder
+
+# 5. create toml file in local dir
+file.create("netlify.toml")
+# populate with following commands  
+# [build]
+#   public = "public"
+#   command = "hugo"
+# [context.production.environment]
+#   HUGO_VERSION = ‘0.56.3’
+#   HUGO_ENV = 'production'
+#   HUGO_ENABLEGITINFO = 'true'
+# [context.branch-deploy.environment]
+#   HUGO_VERSION = ‘0.56.3’
+
+# 7. 
+# add public/ and .DS_Store to .gitignore
+
+# 8. push to github  
+
+# 9. link github to netlify
+# (on netlify) overview > domain settings > build and deploy > link site to git 
+
+# 10. deploy site
+hugo_version()
+
+# note
+# public folder gets overwritten on build  
+
