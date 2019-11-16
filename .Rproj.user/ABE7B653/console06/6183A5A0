@@ -152,3 +152,26 @@ No application knows how to open /Users/malishev/Documents/Melbourne Uni/Program
 ]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git add [K[K[K[K[K[K[K[Kpwd
 /Users/malishev/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro
 ]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git add .
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ got [K[K[Kit commit -m '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc''r't' 'n'e't'l'f'y'[1P'[1P'[1P'l'i'y'.'t'o'm'l'
+[master 32a44a7] crt netliy.toml
+ 9 files changed, 78 insertions(+), 15 deletions(-)
+ create mode 100644 .Rproj.user/ABE7B653/sources/prop/B60437BF
+ rename .Rproj.user/ABE7B653/sources/s-D0BDBB21/{F5C8BC4E => 3C618758} (51%)
+ create mode 100644 .Rproj.user/ABE7B653/sources/s-D0BDBB21/3C618758-contents
+ delete mode 100644 .Rproj.user/shared/notebooks/62AC4EAF-index/1/ABE7B653D0BDBB21/chunks.json
+ create mode 100644 netlify.toml
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git push
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
+Writing objects:   5% (1/19)   Writing objects:  10% (2/19)   Writing objects:  15% (3/19)   Writing objects:  21% (4/19)   Writing objects:  26% (5/19)   Writing objects:  31% (6/19)   Writing objects:  36% (7/19)   Writing objects:  42% (8/19)   Writing objects:  47% (9/19)   Writing objects:  52% (10/19)   Writing objects:  57% (11/19)   Writing objects:  63% (12/19)   Writing objects:  68% (13/19)   Writing objects:  73% (14/19)   Writing objects:  78% (15/19)   Writing objects:  84% (16/19)   Writing objects:  89% (17/19)   Writing objects:  94% (18/19)   Writing objects: 100% (19/19)   Writing objects: 100% (19/19), 2.86 KiB | 0 bytes/s, done.
+Total 19 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/darwinanddavis/zorro
+   c16999f..32a44a7  master -> master
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ open .gitignore. [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+The file /Users/malishev/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro/.gitignore does not exist.
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ touch g[K[K.[K .gitignore [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ open .gitignore  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ gt a[K[K[K[K [Kgit add .

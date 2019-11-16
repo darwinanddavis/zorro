@@ -33,18 +33,28 @@ build_site()
 # 5. create toml file in local dir
 file.create("netlify.toml")
 # populate with following commands  
-# [build]
-#   public = "public"
-#   command = "hugo"
-# [context.production.environment]
-#   HUGO_VERSION = ‘0.56.3’
-#   HUGO_ENV = 'production'
-#   HUGO_ENABLEGITINFO = 'true'
-# [context.branch-deploy.environment]
-#   HUGO_VERSION = ‘0.56.3’
+    # [build]
+    # publish = "public"
+    # command = "hugo"
+    # [context.production.environment]
+    # HUGO_VERSION = "0.59.1"
+    # HUGO_ENV = "production"
+    # HUGO_ENABLEGITINFO = "true"
+    # [context.branch-deploy.environment]
+    # HUGO_VERSION = "0.59.1"
+    # [context.deploy-preview.environment]
+    # HUGO_VERSION = "0.59.1"
 
 # 7. 
-# add public/ and .DS_Store to .gitignore
+# create gitignore and add following files:
+    # *.Rproj
+    # _run_site.r
+    # .Rproj.user
+    # .Rhistory
+    # .RData
+    # .Ruserdata
+    # public/
+    #   .DS_Store
 
 # 8. push to github  
 

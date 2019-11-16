@@ -1,0 +1,8 @@
+*.Rproj
+_run_site.r
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+public/
+.DS_Store
