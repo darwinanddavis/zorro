@@ -24,7 +24,7 @@ serve_site()
 
 # build site 
 build_site()
-
+ 
 # 3. connect to netlify with github
 # www.netlify.com/drop
 
