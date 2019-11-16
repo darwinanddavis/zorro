@@ -13,15 +13,11 @@ hugo_version()
 
 #3. set wd to empty folder 
 setwd("/Users/malishev/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro")
-# 4. install theme
-install_theme("gcushen/hugo-academic", theme_example = TRUE, update_config = TRUE)
 
-# init new site with theme
-new_site(theme = "gcushen/hugo-academic", 
-         sample = TRUE, 
-         theme_example = TRUE, 
-         empty_dirs = TRUE,
-         to_yaml = TRUE)
+
+# make changes to site ----------------------------------------------------
+# here is where you update your site with R
+
 
 # preview site locally 
 serve_site()
