@@ -9,7 +9,7 @@ tags: []
 
 # New blog post with rmd 
 
-dfgfdgfdgfg
+
 
 ```{r,echo=F}
 require(leaflet)

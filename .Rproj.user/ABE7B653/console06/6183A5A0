@@ -780,3 +780,20 @@ remote: Resolving deltas:   0% (0/27)[Kremote: Resolving deltas:   7% (2/27)[
 To https://github.com/darwinanddavis/zorro
    a64d972..9c14305  master -> master
 ]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git add .
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git commit -mm [K[K '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr''m' 'p'o's't' 'd'o'[1P'[1P'f'o'l'd'e'r's'
+[master e960d53] rm post folders
+ 5 files changed, 38 insertions(+), 412 deletions(-)
+ delete mode 100644 public/2015/01/01/lorem-ipsum/index.html
+ delete mode 100644 public/2015/07/23/hello-r-markdown/index.html
+ delete mode 100644 public/2016/12/30/a-plain-markdown-post/index.html
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 2.14 KiB | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/darwinanddavis/zorro
+   9c14305..e960d53  master -> master
+]0;~/Documents/Melbourne Uni/Programs/blogdown_test/zorro/zorro6300L-127771-M:zorro malishev$ git pushcommit -m 'rmm post folders'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
